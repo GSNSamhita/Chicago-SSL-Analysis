@@ -1,7 +1,8 @@
-# Paper II: Detecting Bias
+## Paper II: Detecting Bias
 
-Case Study: Chicago's Strategic Subject List  
-DS 680: Data, Society and AI Ethics
+## Case Study: Chicago's Strategic Subject List  
+
+## DS 680: Data, Society and AI Ethics
 
 ## Question
 
