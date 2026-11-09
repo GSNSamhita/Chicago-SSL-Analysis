@@ -1,0 +1,6 @@
+fix,changes,black_per_100,white_per_100,citywide_ratio,black_flagged,total_flagged
+Original SSL,nothing,16.82,6.54,2.57,149168,282753
+A1: drop drug arrests and gang label,formula,17.27,6.8,2.54,153159,292822
+A2: drop all police inputs,formula,17.25,6.8,2.54,152982,292554
+B: equal flag rates by race,formula (uses race),17.23,7.09,2.43,152805,288185
+C: only enter people with violence on record,who enters,3.68,0.38,9.6,32636,43661
