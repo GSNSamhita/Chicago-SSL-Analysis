@@ -7,14 +7,15 @@
 ## Case Study: Chicago's Strategic Subject List  
 
 
-## Question
+
+### Question
 
 Chicago police used the Strategic Subject List (SSL) from 2012 to 2019 to give people a
 0 to 500 risk score for being involved in a shooting. The score did not use race. I wanted
 to check whether it still ended up affecting racial groups differently, and if so, where
 that difference came from.
 
-## Data
+### Data
 
 - Strategic Subject List, Chicago Data Portal: https://data.cityofchicago.org/d/4aki-r3np
 - American Community Survey 2012-2016 5-year estimates, U.S. Census Bureau API (tract level)
@@ -25,7 +26,7 @@ that difference came from.
 The raw data is not in this repo because the files are large. The notebook downloads
 everything itself.
 
-## How to run
+### How to run
 
 1. Open `final_code.ipynb` in Google Colab.
 2. Get a free Census API key at https://api.census.gov/data/key_signup.html
@@ -35,7 +36,7 @@ everything itself.
 
 The notebook saves data to Google Drive under `ds680_ssl/`, so it only downloads once.
 
-## Main findings
+### Main findings
 
 - 52% of people on the list were Black, compared to about 33% of Chicago. That is about
   1.6 times their share of the city.
@@ -49,7 +50,7 @@ The notebook saves data to Google Drive under `ds680_ssl/`, so it only downloads
 - About 85% of flagged people had no violent arrest and had never been a victim of violence.
   Everyone under 30 on the list was flagged.
 
-## Figures
+### Figures
 
 - `fig1_representation.png`: racial makeup of the list vs Chicago
 - `fig2_shap_gap.png`: which inputs add to the racial score gap (SHAP)
@@ -57,7 +58,7 @@ The notebook saves data to Google Drive under `ds680_ssl/`, so it only downloads
 - `fig4_policing.png`: flagging vs homicide rates and drug arrest rates by area
 - `table3_fixes.csv`: results of the five fixes I tested
   
-## Limitations
+### Limitations
 
 There is no data on who was actually involved in a shooting later, so accuracy could not
 be checked. Community area is missing for 44% of records, and more often for White
