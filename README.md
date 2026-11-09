@@ -1,7 +1,7 @@
 # Paper II: Detecting Bias
 
 Case Study: Chicago's Strategic Subject List  
-DS 680
+DS 680: Data, Society and AI Ethics
 
 ## Question
 
@@ -52,6 +52,7 @@ The notebook saves data to Google Drive under `ds680_ssl/`, so it only downloads
 - `fig3_map.png`: neighborhood racial makeup and people flagged per 1,000, by community area
 - `fig4_policing.png`: flagging vs homicide rates and drug arrest rates by area
 - `table3_fixes.csv`: results of the five fixes I tested
+  
 ## Limitations
 
 There is no data on who was actually involved in a shooting later, so accuracy could not
