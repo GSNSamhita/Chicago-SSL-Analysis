@@ -47,12 +47,11 @@ The notebook saves data to Google Drive under `ds680_ssl/`, so it only downloads
 
 ## Figures
 
-- `figures/fig1_representation.png`: racial makeup of the list vs Chicago
-- `figures/fig2_shap_gap.png`: which inputs add to the racial score gap (SHAP)
-- `figures/fig3_map.png`: neighborhood racial makeup and people flagged per 1,000, by community area
-- `figures/fig4_policing.png`: flagging vs homicide rates and drug arrest rates by area
-- `figures/table3_fixes.csv`: results of the five fixes I tested
-
+- `fig1_representation.png`: racial makeup of the list vs Chicago
+- `fig2_shap_gap.png`: which inputs add to the racial score gap (SHAP)
+- `fig3_map.png`: neighborhood racial makeup and people flagged per 1,000, by community area
+- `fig4_policing.png`: flagging vs homicide rates and drug arrest rates by area
+- `table3_fixes.csv`: results of the five fixes I tested
 ## Limitations
 
 There is no data on who was actually involved in a shooting later, so accuracy could not
